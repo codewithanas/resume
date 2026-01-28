@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Anas | Salesforce Developer</title>
+
+  <style>
+    :root {
+      --primary: #0176d3;
+      --dark: #1f2933;
+      --light: #f5f7fa;
+      --gray: #6b7280;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    body {
+      background: var(--light);
+      color: var(--dark);
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      background: #fff;
+    }
+
+    header {
+      border-bottom: 3px solid var(--primary);
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: var(--primary);
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      font-weight: normal;
+      color: var(--gray);
+    }
+
+    .contact {
+      margin-top: 10px;
+      font-size: 0.95rem;
+    }
+
+    .contact a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    section {
+      margin-bottom: 35px;
+    }
+
+    section h3 {
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+      color: var(--primary);
+      border-left: 5px solid var(--primary);
+      padding-left: 10px;
+    }
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 6px;
+    }
+
+    .job {
+      margin-bottom: 20px;
+    }
+
+    .job h4 {
+      font-size: 1.1rem;
+      font-weight: bold;
+    }
+
+    .job span {
+      font-size: 0.9rem;
+      color: var(--gray);
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 10px;
+    }
+
+    .skill-box {
+      background: var(--light);
+      padding: 10px 12px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.85rem;
+      color: var(--gray);
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- HEADER -->
+    <header>
+      <h1>Anas</h1>
+      <h2>Salesforce Developer</h2>
+      <div class="contact">
+        📧 <a href="mailto:anasmau94@gmail.com">anasmau94@gmail.com</a> |
+        📞 +91 8800126871 |
+        🌍 India <br/>
+        🔗 <a href="https://www.salesforce.com/trailblazer/codewithanas" target="_blank">
+          Salesforce Trailhead
+        </a>
+      </div>
+    </header>
+
+    <!-- SUMMARY -->
+    <section>
+      <h3>Professional Summary</h3>
+      <p>
+        Salesforce Developer with nearly three years of experience in designing,
+        developing, and optimizing Salesforce solutions. Strong expertise in
+        Lightning Web Components (LWC), Apex, Flows, Integrations, and Salesforce
+        Administration. Proven ability to deliver scalable, high-quality solutions.
+      </p>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section>
+      <h3>Salesforce Certifications</h3>
+      <ul>
+        <li>Salesforce Certified Platform Developer I – Mar 2022</li>
+        <li>Salesforce Certified Associate – May 2023</li>
+        <li>Salesforce Certified AI Associate – Dec 2024</li>
+        <li>Salesforce Data Cloud Consultant – Jan 2025</li>
+        <li>Salesforce Certified Agentforce Specialist – Jul 2025</li>
+      </ul>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section>
+      <h3>Experience</h3>
+
+      <div class="job">
+        <h4>360 Degree Cloud Technologies Pvt. Ltd.</h4>
+        <span>Salesforce Developer | May 2021 – Oct 2023</span>
+        <ul>
+          <li>Developed LWCs, Apex Classes, Triggers, Batch Classes</li>
+          <li>Implemented Salesforce integrations using REST APIs</li>
+          <li>Worked on CPQ, Flows, Validation Rules, Deployments</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <h4>Almamate Info Tech Pvt. Ltd.</h4>
+        <span>Salesforce Trainee | Nov 2019 – Mar 2020</span>
+        <ul>
+          <li>Hands-on Salesforce Admin & Development training</li>
+          <li>Configured workflows, data models, automation</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section>
+      <h3>Technical Skills</h3>
+      <div class="skills">
+        <div class="skill-box">Apex, Triggers, Test Classes</div>
+        <div class="skill-box">Lightning Web Components (LWC)</div>
+        <div class="skill-box">Flows, Process Builder, Approvals</div>
+        <div class="skill-box">SOQL & SOSL</div>
+        <div class="skill-box">REST API Integrations</div>
+        <div class="skill-box">Sales, Service & Experience Cloud</div>
+        <div class="skill-box">Profiles, Roles, Permission Sets</div>
+        <div class="skill-box">Visualforce Pages</div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section>
+      <h3>Key Projects</h3>
+      <ul>
+        <li><strong>SafeSecurity:</strong> CPQ Quote Templates, REST integrations, currency exchange automation</li>
+        <li><strong>Hayden LA:</strong> Dashboards, LWC, Calendly & Klaviyo integrations</li>
+        <li><strong>iHeartJane:</strong> LWC Opportunity cloning, data uploads, testing</li>
+        <li><strong>Oakridge Insurance:</strong> Lead Management, email domain setup, Zapier integration</li>
+      </ul>
+    </section>
+
+    <!-- EDUCATION -->
+    <section>
+      <h3>Education</h3>
+      <ul>
+        <li>MCA – Noida Institute of Engineering & Technology (2016–2019)</li>
+        <li>BCA – Punjab Technical University (2013–2015)</li>
+      </ul>
+    </section>
+
+    <!-- LANGUAGES -->
+    <section>
+      <h3>Languages</h3>
+      <p>English, Hindi, Urdu</p>
+    </section>
+
+    <footer>
+      © 2026 Anas | Salesforce Developer Portfolio
+    </footer>
+
+  </div>
+</body>
+</html>
